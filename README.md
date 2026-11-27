@@ -33,6 +33,8 @@ use the standard library.
 
 ## Notes
 
+- In compute_theoretical_fusion_masses.py the monoisotopic masses are computed from the residue table and are correct for any input, but the atomic formulas are hard-coded from the compositions of TIIC1 and V1, so the Formula column is only valid for those two sequences.
+
 - Modification tags stripped from PEAKS peptides: `(+57.02)` (carbamidomethylation), `(+15.99)` (oxidation/hydroxylation).
 
 - Steps 6 and 7 report every occurrence of a fragment in its parent protein. A short
